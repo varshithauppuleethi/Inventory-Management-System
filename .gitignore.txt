@@ -1,0 +1,44 @@
+# .gitignore
+
+# Compiled Java class files
+*.class
+
+# NetBeans build folders
+/build/
+/nbbuild/
+/dist/
+/nbproject/private/
+/build.xml~
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE files (NetBeans, VS Code, IntelliJ, etc.)
+*.iml
+.idea/
+.vscode/
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+*~
+
+# Database configuration files (if any)
+*.properties
+*.env
+
+# Ignore compiled JARs or temporary archives
+*.jar
+*.war
+*.zip
+
+# Ignore the .class output folder if custom
+out/
+bin/
